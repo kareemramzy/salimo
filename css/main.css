@@ -191,9 +191,8 @@ ul {
     transform: skew(0deg,-2deg);
     top: -70px;
     border-bottom: 2px solid var(--alt-color);
-    background-image: url("images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     background-size: cover;
-    Z-index: 2;
 }
 .landing::after {
     content: "";
@@ -235,7 +234,7 @@ ul {
 }
 .landing .right-arrow::before, .landing .left-arrow::before {
     content: "";
-    background-image: url("images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     background-size: cover;
     position: absolute;
     right: 0;
@@ -477,7 +476,7 @@ ul {
     width: 100%;
     height: 93%;
     transform: skewY(-3deg);
-    background-image: url("images/manger.jpg");
+    background-image: url("../images/manger.jpg");
     background-size: cover;
 }
 .manger::after {
@@ -715,7 +714,7 @@ ul {
 .happy::before {
     content: "";
     position: absolute;
-    background-image: url("images/our.jpg");
+    background-image: url("../images/our.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -942,7 +941,7 @@ border-bottom: 10px solid var(--alt-color);
 /*start contacts*/
 .contact {
     padding-top: 100px;
-    background-image: url("images/manger.jpg");
+    background-image: url("../images/manger.jpg");
     background-size: cover;
     position: relative;
     padding-bottom: 100px;
