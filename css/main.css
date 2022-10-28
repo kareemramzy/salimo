@@ -193,6 +193,7 @@ ul {
     border-bottom: 2px solid var(--alt-color);
     background-image: url("images/landing.jpg");
     background-size: cover;
+    Z-index: 2;
 }
 .landing::after {
     content: "";
